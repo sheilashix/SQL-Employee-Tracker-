@@ -1,0 +1,17 @@
+{
+  "name": "employee-tracker",
+  "version": "1.0.1",
+  "description": "Command line application that manages a company's database of employees",
+  "main": "app.js",
+  "scripts": {
+     "start":"node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sheila Chepkemoi",
+  "license": "ISC",
+   "dependencies": {
+    "console.table": "^0.10.0",
+    "inquirer": "^7.3.3",
+    "mysql": "^2.18.1" 
+  }
+}
